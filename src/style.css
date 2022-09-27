@@ -1,0 +1,75 @@
+body {
+    background: rgb(78, 95, 98);
+    background: radial-gradient(circle, rgba(78, 95, 98, 1) 0%, rgba(18, 153, 89, 1) 100%);
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    width: 60%;
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+img {
+    width: 40%;
+}
+
+h1,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 5rem;
+    letter-spacing: 5px;
+    line-height: 2rem;
+}
+
+h3 {
+    padding-bottom: 50px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    width: 50ch;
+}
+
+form {
+    margin-top: 5rem;
+    border-radius: 25px;
+    border: 1px solid rgba(18, 153, 89, 1);
+    width: fit-content;
+}
+
+input {
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: rgb(224, 224, 224);
+    min-width: 30ch;
+}
+
+button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    background-color: rgba(18, 153, 89, 1);
+    color: rgb(224, 224, 224);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    margin: 2px;
+}
+
+.main {
+    color: rgb(224, 224, 224);
+}
